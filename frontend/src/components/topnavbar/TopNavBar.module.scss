@@ -1,10 +1,12 @@
 .base {
-	height: 10vh;
+	height: 12.5vh;
 	display: flex;
+	background-color: rgb(0, 0, 0)
 }
 
 .image {
-	width: 7.5%;
+	height: 100%;
+	padding-right: 2.5%;
 }
 
 .bar {
