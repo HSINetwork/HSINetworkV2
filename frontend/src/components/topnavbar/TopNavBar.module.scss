@@ -1,3 +1,15 @@
 .base {
-	height: 10vh
+	height: 10vh;
+	display: flex;
+}
+
+.image {
+	width: 7.5%;
+}
+
+.bar {
+	display: grid;
+	width: 92.5%;
+	grid-auto-flow: column;
+	place-items: center;
 }

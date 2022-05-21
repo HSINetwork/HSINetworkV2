@@ -1,11 +1,17 @@
-import type { Component } from 'solid-js';
+import SolidJS from "solid-js";
 
-import styles from './TopNavBar.module.scss';
+import styles from './Item.module.scss';
 
-const TopNavBarItem: Component = () => {
+interface pi {
+	link: string,
+	children: string
+}
+
+const TopNavBarItem: SolidJS.Component<pi> = (props) => {
   return (
-    <div class={styles.base}>
-    </div>
+	<a class={styles.base} href={props.link}>
+		{props.children}
+	</a>
   );
 };
 
