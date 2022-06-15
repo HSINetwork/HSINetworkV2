@@ -15,5 +15,15 @@
   "bugs": {
     "url": "https://github.com/HSINetwork/HSINetworkV2/issues"
   },
-  "homepage": "https://github.com/HSINetwork/HSINetworkV2#readme"
+  "homepage": "https://github.com/HSINetwork/HSINetworkV2#readme",
+  "devDependencies": {
+    "turbo": "^1.2.11",
+    "typescript": "^4.6.3"
+  },
+  "workspaces": [
+    "packages/*",
+    "frontend",
+    "api",
+    "server"
+  ]
 }

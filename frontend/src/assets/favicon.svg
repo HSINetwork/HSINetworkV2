@@ -1,0 +1,20 @@
+<svg width="128" height="128" xmlns="http://www.w3.org/2000/svg">
+ <!-- Created with Liveweave.com -->
+ <defs>
+  <linearGradient y2="0" x2="1" y1="0" x1="0" id="svg_7">
+   <stop offset="0" stop-color="#ffff7f"/>
+   <stop offset="1" stop-opacity="1" stop-color="#ffff00"/>
+  </linearGradient>
+  <filter id="svg_13_blur">
+   <feGaussianBlur stdDeviation="0" in="SourceGraphic"/>
+  </filter>
+ </defs>
+ <g>
+  <title>Layer 1</title>
+  <rect id="svg_9" height="127" width="127" y="0.5" x="0.5" stroke-width="1.5" stroke="#000" fill="#000000"/>
+  <text transform="rotate(5, 64, 17.5)" xml:space="preserve" text-anchor="start" font-family="Helvetica, Arial, sans-serif" font-size="19" id="svg_5" y="24" x="10.5" stroke-width="0" stroke="#000" fill="url(#svg_7)">HSI Network</text>
+  <rect id="svg_10" height="31" width="44" y="97" x="84.5" stroke-opacity="null" stroke-width="0" stroke="#000" fill="#ffff7f"/>
+  <rect transform="rotate(-7, 36.5, 67)" filter="url(#svg_13_blur)" id="svg_13" height="45.5" width="44" y="44.5" x="14.5" stroke-opacity="null" stroke-width="1.5" stroke="#000" fill="#ffff7f"/>
+  <rect transform="rotate(7.5, 97.5, 56)" id="svg_16" height="41.5" width="41" y="35.5" x="77" fill-opacity="null" stroke-opacity="null" stroke-width="1.5" stroke="#000" fill="#ffff7f"/>
+ </g>
+</svg>

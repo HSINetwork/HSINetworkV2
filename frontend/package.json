@@ -1,5 +1,5 @@
 {
-  "name": "vite-template-solid",
+  "name": "hsi-network-v2-frontend",
   "version": "0.0.0",
   "description": "",
   "scripts": {
@@ -10,7 +10,6 @@
   },
   "license": "MIT",
   "devDependencies": {
-    "typescript": "^4.6.3",
     "vite": "^2.8.6",
     "vite-plugin-solid": "^2.2.6"
   },

@@ -1,5 +1,5 @@
 .base {
-	font-size: xx-large;
+	font-size: clamp(0rem, 2.5rem, 2.8rem);
 	text-decoration: none;
 	color: white;
 	transition: background-color 0.5s;
